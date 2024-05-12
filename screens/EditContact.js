@@ -209,8 +209,8 @@ const EditContact = ({ route }) => {
               {image ? (
                 <Image source={{ uri: image }} style={[styles.avatar]} />
               ) : (
-                <MaterialCommunityIcons
-                  name="file-image-plus-outline"
+                <MaterialIcons
+                  name="add-a-photo"
                   size={40}
                   color="#884dff"
                 />

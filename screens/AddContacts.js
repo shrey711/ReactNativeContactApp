@@ -158,7 +158,7 @@ const AddContacts = ({ route }) => {
               <View></View>
               <View style={styles.galleryContainer}>
                 <MaterialIcons
-                  name="photo-library"
+                  name="add-a-photo"
                   size={60}
                   color="#884dff"
                   onPress={pickImage}
@@ -180,8 +180,8 @@ const AddContacts = ({ route }) => {
             {image ? (
               <Image source={{ uri: image }} style={[styles.avatar]} />
             ) : (
-              <MaterialCommunityIcons
-                name="file-image-plus-outline"
+              <MaterialIcons
+                name="add-a-photo"
                 size={40}
                 color="purple"
               />
